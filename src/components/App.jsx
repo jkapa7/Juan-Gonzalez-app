@@ -1,10 +1,10 @@
-// import { useState } from "react";
 import "../styles/App.css";
+import Home from "../view/Home";
 
 function App() {
   return (
     <div>
-      <h1>Comming Soon!</h1>
+      <Home />
     </div>
   );
 }
