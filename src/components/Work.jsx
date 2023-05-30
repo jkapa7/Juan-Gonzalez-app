@@ -1,7 +1,9 @@
+import "../styles/Work.scss";
+
 const Work = () => {
   return (
-    <div>
-      <h1>Work</h1>
+    <div className="Work">
+      <h1>Some of my Work</h1>
 
       <div>
         <h2>Mirador Tayrona Park</h2>

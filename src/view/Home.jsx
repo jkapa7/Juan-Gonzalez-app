@@ -1,18 +1,32 @@
-import "../styles/App.css";
 import About from "../components/About";
 import Work from "../components/Work";
 import Contact from "../components/Contact";
-import Navbar from "../components/Navbar";
+import "../styles/Home.scss";
 
 function Home() {
   return (
     <div>
-      <Navbar />
+      <div className="home">
+        <div>
+          <h1>Juan Daniel Gonzalez</h1>
+        </div>
 
+        <div>
+          <h1>About</h1>
+        </div>
+
+        <div>
+          <h1>Work</h1>
+        </div>
+
+        <div>
+          <button>Let's talk</button>
+        </div>
+
+        <button>Let's talk</button>
+      </div>
       <About />
-
       <Work />
-
       <Contact />
     </div>
   );

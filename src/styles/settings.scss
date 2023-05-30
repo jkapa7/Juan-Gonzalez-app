@@ -2,7 +2,7 @@
 $primary: #2f2f2f;
 $secundary: #ffcb74;
 $bg-color: #a8a8a8;
-$font-color: #8e8e8e;
+$font-color: $primary;
 
 // Shadow
 $shadow: 0px 0px 10px 5px #00000015;
@@ -11,7 +11,7 @@ $shadowHover: 3px 3px 15px 10px #0000001f;
 // Width containers
 $maxWidthContainer: 1240px;
 
-$header-color: $dark;
+$header-color: $primary;
 $font-color-secundary: $primary;
 
 //Transitions

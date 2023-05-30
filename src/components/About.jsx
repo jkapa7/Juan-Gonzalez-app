@@ -1,7 +1,9 @@
+import "../styles/About.scss";
+
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
+    <div className="About">
+      <h1>Who I am?</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eius?
         Sunt officia minus commodi hic deleniti, laboriosam vel reprehenderit
@@ -32,6 +34,8 @@ const About = () => {
         non dolorum! Quis mollitia natus voluptas. Mollitia! Lorem ipsum dolor
         sit amet consectetur adipisicing elit.
       </p>
+
+      <button>See my resume!</button>
     </div>
   );
 };

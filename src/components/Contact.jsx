@@ -1,7 +1,9 @@
+import "../styles/Contact.scss";
+
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
+    <div className="contact">
+      <h1>Let's talk</h1>
       <p>Email:</p>
       <p>Linkedin:</p>
       <p>Github:</p>
