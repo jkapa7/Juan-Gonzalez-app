@@ -1,14 +1,12 @@
 import About from "../components/About";
-import Work from "../components/Work";
-
-import "../styles/Home.scss";
+import Portfolio from "../components/Portfolio";
 import Layout from "../components/Layout";
 
 function Home() {
   return (
     <Layout>
       <About />
-      <Work />
+      <Portfolio />
     </Layout>
   );
 }

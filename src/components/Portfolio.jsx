@@ -1,4 +1,4 @@
-const Work = () => {
+const Portfolio = () => {
   return (
     <div className="Work">
       <h1>Some of my Work</h1>
@@ -24,4 +24,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Portfolio;
