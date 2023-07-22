@@ -9,6 +9,7 @@ export default function Error404() {
           Este recurso no esta disponible
         </p>
       </article>
+
       <article className=" mb-auto">
         <Link to={"/"}>
           <button className=" text-EAgreen-light-900 bg-EAgreen m-9 px-5 py-3 rounded">

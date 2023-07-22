@@ -1,23 +1,13 @@
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Layout from "../components/Layout";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Button from "../components/Button";
-import Translation from "../data/lenguges.json";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const [t, i18n] = useTranslation("global");
   const [darkMode, setDarkMode] = useState(false);
-
-  const [lenguage, setLenguage] = useState("english");
-  const [content, setContent] = useState({});
-
-  useEffect(() => {
-    if (lenguage == "english") {
-      setContent(Translation.english);
-    } else if (lenguage == "spanish") {
-      setContent(Translation.spanish);
-    }
-  }, [lenguage]);
 
   const handleClick = () => {
     document.documentElement.classList.toggle("dark");
@@ -28,25 +18,17 @@ function Home() {
 
   return (
     <Layout>
-      <select
-        value={lenguage}
-        onChange={(e) => {
-          setLenguage(e.target.value);
-        }}
-      >
-        <option>english</option>
-        <option>spanish</option>
-      </select>
-
-      <div>
-        <h2>{content.title}</h2>
-      </div>
-
       <>
         <Button onClick={handleClick} text={text}></Button>
       </>
 
+      <h1>{t("title")}</h1>
+
+      <button onClick={() => i18n.changeLanguage("es")}>ES</button>
+      <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+
       <About />
+
       <Portfolio />
     </Layout>
   );

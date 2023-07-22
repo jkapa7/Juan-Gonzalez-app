@@ -1,7 +1,9 @@
 const About = () => {
   return (
     <div className="About">
-      <h1>Who I am?</h1>
+      <div>
+        <h1>Who I am?</h1>
+      </div>
 
       <div>
         <img src="" alt="" />
@@ -20,7 +22,7 @@ const About = () => {
         </p>
       </div>
 
-      <button>See my resume!</button>
+      <a href="">See my resume!</a>
     </div>
   );
 };

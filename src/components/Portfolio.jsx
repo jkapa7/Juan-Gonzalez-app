@@ -3,17 +3,26 @@ import { projects } from "../data/data";
 const Portfolio = () => {
   return (
     <div>
-      <h1>Portfolio</h1>
-      {projects?.map((project) => {
-        return (
-          <div key={project.id}>
-            <h2>{project.title}</h2>
-            <h2>{project.description}</h2>
-            <a>{project.github}</a>
-            <a>{project.website}</a>
-          </div>
-        );
-      })}
+      <div>
+        <h1>Portfolio</h1>
+      </div>
+
+      <div>
+        {projects?.map(({ id, title, description, github, website }) => {
+          return (
+            <div key={id}>
+              <h2>{title}</h2>
+              <h2>{description}</h2>
+              <a href="" target="_blank" rel="noreferrer">
+                {github}
+              </a>
+              <a href="" target="_blank" rel="noreferrer">
+                {website}
+              </a>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
