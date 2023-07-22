@@ -1,5 +1,3 @@
-import "../styles/Work.scss";
-
 const Work = () => {
   return (
     <div className="Work">
@@ -7,20 +5,20 @@ const Work = () => {
 
       <div>
         <h2>Mirador Tayrona Park</h2>
-        <p>Github:</p>
-        <p>Website:</p>
+        <a>Github:</a>
+        <a>Website:</a>
       </div>
 
       <div>
         <h2>Pokemon</h2>
-        <p>Github:</p>
-        <p>Website:</p>
+        <a>Github:</a>
+        <a>Website:</a>
       </div>
 
       <div>
         <h2>Rick and Morty</h2>
-        <p>Github:</p>
-        <p>Website:</p>
+        <a>Github:</a>
+        <a>Website:</a>
       </div>
     </div>
   );
