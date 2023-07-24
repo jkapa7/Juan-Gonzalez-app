@@ -1,6 +1,6 @@
-import { projects } from "../data/data";
+import { Projects } from "../data/Projects";
 
-const Portfolio = () => {
+export const Portfolio = () => {
   return (
     <div>
       <div>
@@ -8,16 +8,16 @@ const Portfolio = () => {
       </div>
 
       <div>
-        {projects?.map(({ id, title, description, github, website }) => {
+        {Projects()?.map(({ id, title, description, github, website }) => {
           return (
             <div key={id}>
               <h2>{title}</h2>
               <h2>{description}</h2>
-              <a href="" target="_blank" rel="noreferrer">
-                {github}
+              <a href={github} target="_blank" rel="noreferrer">
+                github
               </a>
-              <a href="" target="_blank" rel="noreferrer">
-                {website}
+              <a href={website} target="_blank" rel="noreferrer">
+                website
               </a>
             </div>
           );
@@ -26,5 +26,3 @@ const Portfolio = () => {
     </div>
   );
 };
-
-export default Portfolio;

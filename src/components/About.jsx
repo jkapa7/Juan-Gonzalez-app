@@ -6,7 +6,7 @@ const About = () => {
       </div>
 
       <div>
-        <img src="" alt="" />
+        <img src="" alt="Juan Daniel Gonzalez" />
       </div>
 
       <div>
