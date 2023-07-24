@@ -20,5 +20,12 @@
 
   "project-5": {
     "description": "Esta es la descipcion del proyecto 5 en español"
+  },
+
+  "downloadCv": {
+    "titleCv": "spanish",
+    "text": "spanish",
+    "confirmButtonText": "Modo oscuro",
+    "denyButtonText": "Modo claro"
   }
 }

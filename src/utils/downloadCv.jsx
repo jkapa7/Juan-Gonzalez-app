@@ -6,17 +6,20 @@ const handleCVDownload = (pdf) => {
   window.open(pdf);
 };
 
-export const downloadCv = (color = "#fff") => {
+export const downloadCv = (
+  title,
+  text,
+  confirmButtonText,
+  denyButtonText,
+  color = "#fff"
+) => {
   Swal.fire({
-    title: "Succes!",
-    text: "Do you want to continue?",
-
-    confirmButtonText: "Dark Version",
-    denyButtonText: "Ligth Version",
-
+    title,
+    text,
+    confirmButtonText,
+    denyButtonText,
     showDenyButton: true,
     showCloseButton: true,
-
     background: color,
   }).then((result) => {
     console.log(result);

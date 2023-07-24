@@ -3,32 +3,29 @@
   "button-footer": "Download CV",
 
   "project-1": {
-    "title": ";",
     "description": "This is the project 1 desciption in English"
   },
 
   "project-2": {
-    "title": ";",
     "description": "This is the project 2 desciption in English"
   },
 
   "project-3": {
-    "title": ";",
     "description": "This is the project 3 desciption in English"
   },
 
   "project-4": {
-    "title": ";",
     "description": "This is the project 4 desciption in English"
   },
 
   "project-5": {
-    "title": ";",
     "description": "This is the project 5 desciption in English"
   },
 
-  "project-6": {
-    "title": ";",
-    "description": "This is the project 6 desciption in English"
+  "downloadCv": {
+    "titleCv": "english",
+    "text": "english",
+    "confirmButtonText": "Dark mode",
+    "denyButtonText": "Light mode"
   }
 }

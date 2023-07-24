@@ -15,7 +15,7 @@ function Navbar() {
   const text = darkMode ? "Activar modo claro" : "Activar modo oscuro";
 
   return (
-    <div>
+    <div className="flex justify-center text-center align-middle bg-green-800">
       <div>
         <h2>Juan Daniel Gonzalez</h2>
       </div>

@@ -7,7 +7,7 @@ function Layout({ children }) {
     <>
       <Navbar />
       {children}
-      <Footer text="Hola" />
+      <Footer txt="Hola" />
     </>
   );
 }
