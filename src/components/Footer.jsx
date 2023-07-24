@@ -1,5 +1,6 @@
 import Button from "./Button";
 import PropTypes from "prop-types";
+import { downloadCv } from "../utils/downloadCv";
 
 function Footer({ text }) {
   return (
@@ -16,7 +17,7 @@ function Footer({ text }) {
         Email
       </a>
 
-      <Button text={text} />
+      <Button text={text} onClick={() => downloadCv()} />
     </div>
   );
 }
