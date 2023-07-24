@@ -1,3 +1,7 @@
+import { useTranslation } from "react-i18next";
+
+const [t, i18n] = useTranslation("global");
+
 export const projects = [
   {
     id: 1,
@@ -15,7 +19,6 @@ export const projects = [
 
   {
     id: 3,
-
     title: "Hola",
     github: "",
     website: "",
