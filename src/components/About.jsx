@@ -17,13 +17,15 @@ const About = () => {
       </div>
 
       <div className="flex justify-center align-middle">
-        <img
-          src="https://i.pinimg.com/originals/46/4f/d7/464fd7698591b58cbe008cd5fe6d7c05.jpg"
-          alt="Juan Daniel Gonzalez"
-          className="h-96 w-96"
-        />
+        <div className="flex w-1/2 justify-center align-middle">
+          <img
+            src="https://i.pinimg.com/originals/46/4f/d7/464fd7698591b58cbe008cd5fe6d7c05.jpg"
+            alt="Juan Daniel Gonzalez"
+            className="h-96 w-96 "
+          />
+        </div>
 
-        <div className="w-1/2">
+        <div className="flex flex-col w-1/2 justify-center align-middle">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
             eius? Sunt officia minus commodi hic deleniti, laboriosam vel
@@ -36,12 +38,14 @@ const About = () => {
             consectetur adipisicing elit.
           </p>
 
-          <Button
-            text={"hola"}
-            onClick={() =>
-              downloadCv(titleCv, text, confirmButtonText, denyButtonText)
-            }
-          />
+          <div className="text-center">
+            <Button
+              text={"hola"}
+              onClick={() =>
+                downloadCv(titleCv, text, confirmButtonText, denyButtonText)
+              }
+            />
+          </div>
         </div>
       </div>
     </div>

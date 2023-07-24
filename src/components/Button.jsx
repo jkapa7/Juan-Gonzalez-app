@@ -1,15 +1,11 @@
 import PropTypes from "prop-types";
 
-function Button({ text, color, onClick }) {
+function Button({ text, onClick }) {
   return (
     <>
       <button
         onClick={onClick}
-        className={
-          color
-            ? `font-extrabold text-title-h md:text-title-w ${color}`
-            : "font-extrabold text-title-h md:text-title-w text-slate-700"
-        }
+        className="font-extrabold text-title-h md:text-title-w bg-yellow-400"
       >
         {text}
       </button>
