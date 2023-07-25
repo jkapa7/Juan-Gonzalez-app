@@ -2,7 +2,10 @@ import { Projects } from "../data/Projects";
 
 export const Portfolio = () => {
   return (
-    <div className="flex flex-col justify-center items-center my-24">
+    <div
+      className="flex flex-col justify-center items-center my-24"
+      id="portfolio"
+    >
       <div>
         <h1 className="text-center">Portfolio</h1>
       </div>
@@ -12,7 +15,7 @@ export const Portfolio = () => {
           ({ id, title, description, image, github, website }) => (
             <div
               key={id}
-              className="mx-auto my-4 p-4 flex justify-between bg-white"
+              className="mx-auto my-4 p-4 flex justify-between bg-white animate-fade-up"
             >
               <div>
                 <h2>{title}</h2>

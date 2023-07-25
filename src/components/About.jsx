@@ -11,7 +11,10 @@ const About = () => {
   let denyButtonText = t("downloadCv.denyButtonText");
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
+    <div
+      className="flex flex-col justify-center items-center h-screen"
+      id="about"
+    >
       <div className="text-center">
         <h1>Who I am?</h1>
       </div>
