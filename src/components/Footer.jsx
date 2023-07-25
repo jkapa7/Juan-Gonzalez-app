@@ -12,16 +12,33 @@ function Footer({ txt }) {
   let denyButtonText = t("downloadCv.denyButtonText");
 
   return (
-    <div className="justify-center text-center align-middle bg-green-800">
-      <a href="" target="_blank" rel="noreferrer">
+    <div className="justify-center text-center align-middle bg-white">
+      <p>Lets talk</p>
+
+      <a
+        href=""
+        target="_blank"
+        rel="noreferrer"
+        className=" hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
+      >
         Linkedin
       </a>
 
-      <a href="" target="_blank" rel="noreferrer">
+      <a
+        href=""
+        target="_blank"
+        rel="noreferrer"
+        className=" hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
+      >
         Github
       </a>
 
-      <a href="" target="_blank" rel="noreferrer">
+      <a
+        href=""
+        target="_blank"
+        rel="noreferrer"
+        className=" hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
+      >
         Email
       </a>
 
@@ -31,6 +48,8 @@ function Footer({ txt }) {
           downloadCv(titleCv, text, confirmButtonText, denyButtonText)
         }
       />
+
+      <p>Designed & Built byJuan Daniel Gonzalez</p>
     </div>
   );
 }

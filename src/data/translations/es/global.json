@@ -1,25 +1,30 @@
 {
+  "main": {
+    "title1": "Hola, soy Juan",
+    "title2": "Programador Full Stack"
+  },
+
   "title": "hola, esto esta en Español",
   "button-footer": "Descargar CV",
 
   "project-1": {
-    "description": "Esta es la descipcion del proyecto 1 en español"
+    "description": "Esta es la descipcion del proyecto 1 en español "
   },
 
   "project-2": {
-    "description": "Esta es la descipcion del proyecto 2 en español"
+    "description": "Esta es la descipcion del proyecto 2 en español "
   },
 
   "project-3": {
-    "description": "Esta es la descipcion del proyecto 3 en español"
+    "description": "Esta es la descipcion del proyecto 3 en español "
   },
 
   "project-4": {
-    "description": "Esta es la descipcion del proyecto 4 en español"
+    "description": "Esta es la descipcion del proyecto 4 en español "
   },
 
   "project-5": {
-    "description": "Esta es la descipcion del proyecto 5 en español"
+    "description": "Esta es la descipcion del proyecto 5 en español "
   },
 
   "downloadCv": {

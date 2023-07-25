@@ -1,6 +1,6 @@
-import Button from "./Button";
 import { useTranslation } from "react-i18next";
 import { downloadCv } from "../utils/downloadCv";
+import Button from "./Button";
 
 const About = () => {
   const [t] = useTranslation("global");
@@ -11,21 +11,21 @@ const About = () => {
   let denyButtonText = t("downloadCv.denyButtonText");
 
   return (
-    <div>
-      <div>
+    <div className="flex flex-col justify-center items-center h-screen">
+      <div className="text-center">
         <h1>Who I am?</h1>
       </div>
 
-      <div className="flex justify-center align-middle">
-        <div className="flex w-1/2 justify-center align-middle">
+      <div className="w-full md:w-2/3 mx-auto my-4 p-4 flex justify-between bg-white">
+        <div className="flex w-1/2 justify-center">
           <img
             src="https://i.pinimg.com/originals/46/4f/d7/464fd7698591b58cbe008cd5fe6d7c05.jpg"
             alt="Juan Daniel Gonzalez"
-            className="h-96 w-96 "
+            className="h-96 w-96"
           />
         </div>
 
-        <div className="flex flex-col w-1/2 justify-center align-middle">
+        <div className="flex flex-col w-1/2 justify-center">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
             eius? Sunt officia minus commodi hic deleniti, laboriosam vel

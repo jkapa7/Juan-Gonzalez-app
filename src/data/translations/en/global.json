@@ -1,4 +1,9 @@
 {
+  "main": {
+    "title1": "Hello I'm Juan",
+    "title2": "Full Stack developer"
+  },
+
   "title": "Hellooo this is English",
   "button-footer": "Download CV",
 

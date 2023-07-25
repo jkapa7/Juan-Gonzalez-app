@@ -16,34 +16,49 @@ function Navbar() {
   const text = darkMode ? "Activar modo claro" : "Activar modo oscuro";
 
   return (
-    <div className="flex justify-between items-center bg-green-800 px-4 py-2">
+    <div className="flex justify-between items-center px-4 py-2">
       <div>
-        <h2 className="text-white text-xl font-bold">Juan Daniel Gonzalez</h2>
+        <h2 className="text-xl font-bold">Juan Daniel Gonzalez</h2>
       </div>
       <div className="flex items-center space-x-4">
-        <a className="text-white">About me</a>
-        <a className="text-white">Portfolio</a>
+        <a
+          className=" hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
+          href="#about"
+        >
+          About me
+        </a>
+
+        <a
+          className=" hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded "
+          href="#portfolio"
+        >
+          Portfolio
+        </a>
 
         {i18n.language === "en" ? (
           <button
-            className="text-white bg-transparent border border-white px-3 py-1 rounded"
+            className=" hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
             onClick={() => i18n.changeLanguage("es")}
           >
             ES
           </button>
         ) : (
           <button
-            className="text-white bg-transparent border border-white px-3 py-1 rounded"
+            className="  hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
             onClick={() => i18n.changeLanguage("en")}
           >
             EN
           </button>
         )}
 
-        <>
-          <Button onClick={handleClick} text={text} />
-        </>
-        <Button text="let's talk" />
+        <button
+          onClick={handleClick}
+          className=" hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
+        >
+          {text}
+        </button>
+
+        <Button text="Let's talk" />
       </div>
     </div>
   );

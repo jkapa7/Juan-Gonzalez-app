@@ -2,24 +2,37 @@ import { Projects } from "../data/Projects";
 
 export const Portfolio = () => {
   return (
-    <div className="p-10">
-      <h1 className="text-center">Portfolio</h1>
-
+    <div className="flex flex-col justify-center items-center my-24">
       <div>
+        <h1 className="text-center">Portfolio</h1>
+      </div>
+
+      <div className="w-full md:w-2/3">
         {Projects()?.map(
           ({ id, title, description, image, github, website }) => (
             <div
               key={id}
-              className=" w-1/2 mx-auto my-4 p-4 flex justify-between bg-white"
+              className="mx-auto my-4 p-4 flex justify-between bg-white"
             >
               <div>
-                <h2 className="mb-2">{title}</h2>
-                <p className="mb-2">{description}</p>
+                <h2>{title}</h2>
+                <p>{description}</p>
                 <div className="flex">
-                  <a href={github} target="_blank" rel="noreferrer">
+                  <a
+                    href={github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className=" hover:bg-slate-300 my-auto px-2 py-1 rounded  bg-slate-300"
+                  >
                     GitHub
                   </a>
-                  <a href={website} target="_blank" rel="noreferrer">
+
+                  <a
+                    href={website}
+                    target="_blank"
+                    rel="noreferrer"
+                    className=" hover:bg-slate-200 my-auto px-2 py-1 rounded bg-slate-300"
+                  >
                     Website
                   </a>
                 </div>
