@@ -53,5 +53,15 @@ export const Projects = () => {
       github: "https://www.linkedin.com/in/gonzalezjuanr/",
       website: "https://www.linkedin.com/in/gonzalezjuanr/",
     },
+
+    {
+      id: 6,
+      title: "Tesla Clon",
+      description: t("project-5.description"),
+      image:
+        "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
+      github: "https://www.linkedin.com/in/gonzalezjuanr/",
+      website: "https://www.linkedin.com/in/gonzalezjuanr/",
+    },
   ];
 };

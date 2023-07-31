@@ -1,6 +1,6 @@
 {
   "main": {
-    "title1": "Hello I'm Juan",
+    "title1": "Hello, I'm Juan",
     "title2": "Full Stack developer"
   },
 
@@ -8,23 +8,27 @@
   "button-footer": "Download CV",
 
   "project-1": {
-    "description": "This is the project 1 desciption in English"
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. This is the project 1 desciption in English"
   },
 
   "project-2": {
-    "description": "This is the project 2 desciption in English"
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. This is the project 2 desciption in English"
   },
 
   "project-3": {
-    "description": "This is the project 3 desciption in English"
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. This is the project 3 desciption in English"
   },
 
   "project-4": {
-    "description": "This is the project 4 desciption in English"
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. This is the project 4 desciption in English"
   },
 
   "project-5": {
-    "description": "This is the project 5 desciption in English"
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. This is the project 5 desciption in English"
+  },
+
+  "project-6": {
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. This is the project 5 desciption in English"
   },
 
   "downloadCv": {
@@ -32,5 +36,10 @@
     "text": "english",
     "confirmButtonText": "Dark mode",
     "denyButtonText": "Light mode"
+  },
+
+  "navBar": {
+    "about": "About me",
+    "portfolio": "Portfolio"
   }
 }

@@ -26,23 +26,23 @@ export function Navbar() {
   };
 
   return (
-    <div className="flex justify-between items-center px-4 py-2">
+    <div className="flex justify-between items-center px-4 py-2" id="s">
       <div>
-        <h2 className="text-xl font-bold">Juan Daniel Gonzalez</h2>
+        <h2 className="text-xl font-bold ">Juan Daniel Gonzalez</h2>
       </div>
       <div className="flex items-center space-x-4">
         <a
           className="hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded cursor-pointer"
           onClick={(e) => handleScrollToSection(e, "#about")}
         >
-          About me
+          {t("navBar.about")}
         </a>
 
         <a
           className="hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded cursor-pointer"
           onClick={(e) => handleScrollToSection(e, "#portfolio")}
         >
-          Portfolio
+          {t("navBar.portfolio")}
         </a>
 
         <button
@@ -59,7 +59,10 @@ export function Navbar() {
           {darkMode ? sunIcon : moonIcon}
         </button>
 
-        <Button text="Let's talk" />
+        <Button
+          text="Let's talk"
+          onClick={(e) => handleScrollToSection(e, "#letstalk")}
+        />
       </div>
     </div>
   );

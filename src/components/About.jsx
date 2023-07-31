@@ -16,10 +16,10 @@ const About = () => {
       id="about"
     >
       <div className="text-center">
-        <h1>Who I am?</h1>
+        <h1 className="text-2xl font-bold">Who I am?</h1>
       </div>
 
-      <div className="w-full md:w-2/3 mx-auto my-4 p-4 flex justify-between bg-white">
+      <div className="w-full md:w-2/3 mx-auto my-4 p-4 flex justify-between bg-white rounded dark:bg-stone-600">
         <div className="flex w-1/2 justify-center">
           <img
             src="https://i.pinimg.com/originals/46/4f/d7/464fd7698591b58cbe008cd5fe6d7c05.jpg"

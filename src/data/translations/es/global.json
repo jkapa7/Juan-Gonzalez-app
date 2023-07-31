@@ -8,23 +8,27 @@
   "button-footer": "Descargar CV",
 
   "project-1": {
-    "description": "Esta es la descipcion del proyecto 1 en español "
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex.Esta es la descipcion del proyecto 1 en español"
   },
 
   "project-2": {
-    "description": "Esta es la descipcion del proyecto 2 en español "
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex.Esta es la descipcion del proyecto 2 en español "
   },
 
   "project-3": {
-    "description": "Esta es la descipcion del proyecto 3 en español "
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex.Esta es la descipcion del proyecto 3 en español "
   },
 
   "project-4": {
-    "description": "Esta es la descipcion del proyecto 4 en español "
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex.Esta es la descipcion del proyecto 4 en español "
   },
 
   "project-5": {
-    "description": "Esta es la descipcion del proyecto 5 en español "
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex.Esta es la descipcion del proyecto 5 en español "
+  },
+
+  "project-6": {
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit autem odio molestias et sit? Nemo, ad minus. Repellendus delectus minus ipsum sint quia! At dignissimos, quae nam animi facere ex.Esta es la descipcion del proyecto 5 en español "
   },
 
   "downloadCv": {
@@ -32,5 +36,10 @@
     "text": "spanish",
     "confirmButtonText": "Modo oscuro",
     "denyButtonText": "Modo claro"
+  },
+
+  "navBar": {
+    "about": "Sobre mi",
+    "portfolio": "Portafolio"
   }
 }
