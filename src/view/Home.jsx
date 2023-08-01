@@ -7,9 +7,17 @@ import { upButton } from "../utils/buttonUp";
 function Home() {
   return (
     <Layout>
-      <LandingHome />
-      <About />
-      <Portfolio />
+      <div className="snap-center">
+        <LandingHome />
+      </div>
+
+      <div className="snap-center">
+        <About />
+      </div>
+
+      <div className="snap-center">
+        <Portfolio />
+      </div>
       {upButton}
     </Layout>
   );
