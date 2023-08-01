@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import LandingHome from "../components/LandingHome";
 import { upButton } from "../utils/buttonUp";
 import Footer from "../components/Footer";
-import { Carousel1 } from "../components/Carousel";
+import { Carousel } from "../components/Carousel";
 
 function Home() {
   return (
@@ -18,7 +18,7 @@ function Home() {
         </div>
 
         <div className="snap-center">
-          <Carousel1 />
+          <Carousel />
         </div>
 
         <div className="snap-center" id="talk">
