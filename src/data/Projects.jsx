@@ -24,44 +24,44 @@ export const Projects = () => {
       website: "https://www.linkedin.com/in/gonzalezjuanr/",
     },
 
-    // {
-    //   id: 3,
-    //   title: "Educa Agil",
-    //   description: t("project-3.description"),
-    //   image:
-    //     "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
-    //   github: "https://www.linkedin.com/in/gonzalezjuanr/",
-    //   website: "https://www.linkedin.com/in/gonzalezjuanr/",
-    // },
+    {
+      id: 3,
+      title: "Educa Agil",
+      description: t("project-3.description"),
+      image:
+        "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
+      github: "https://www.linkedin.com/in/gonzalezjuanr/",
+      website: "https://www.linkedin.com/in/gonzalezjuanr/",
+    },
 
-    // {
-    //   id: 4,
-    //   title: "Pokemon",
-    //   description: t("project-4.description"),
-    //   image:
-    //     "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
-    //   github: "https://www.linkedin.com/in/gonzalezjuanr/",
-    //   website: "https://www.linkedin.com/in/gonzalezjuanr/",
-    // },
+    {
+      id: 4,
+      title: "Pokemon",
+      description: t("project-4.description"),
+      image:
+        "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
+      github: "https://www.linkedin.com/in/gonzalezjuanr/",
+      website: "https://www.linkedin.com/in/gonzalezjuanr/",
+    },
 
-    // {
-    //   id: 5,
-    //   title: "Rick an Morty",
-    //   description: t("project-5.description"),
-    //   image:
-    //     "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
-    //   github: "https://www.linkedin.com/in/gonzalezjuanr/",
-    //   website: "https://www.linkedin.com/in/gonzalezjuanr/",
-    // },
+    {
+      id: 5,
+      title: "Rick an Morty",
+      description: t("project-5.description"),
+      image:
+        "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
+      github: "https://www.linkedin.com/in/gonzalezjuanr/",
+      website: "https://www.linkedin.com/in/gonzalezjuanr/",
+    },
 
-    // {
-    //   id: 6,
-    //   title: "Tesla Clon",
-    //   description: t("project-5.description"),
-    //   image:
-    //     "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
-    //   github: "https://www.linkedin.com/in/gonzalezjuanr/",
-    //   website: "https://www.linkedin.com/in/gonzalezjuanr/",
-    // },
+    {
+      id: 6,
+      title: "Tesla Clon",
+      description: t("project-5.description"),
+      image:
+        "https://img.freepik.com/vector-premium/pequena-planta-suelo-estilo-pixel-art_475147-1002.jpg?w=2000",
+      github: "https://www.linkedin.com/in/gonzalezjuanr/",
+      website: "https://www.linkedin.com/in/gonzalezjuanr/",
+    },
   ];
 };

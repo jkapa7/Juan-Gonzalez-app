@@ -1,17 +1,15 @@
 import About from "../components/About";
-import { Portfolio } from "../components/Portfolio";
-import { Portfolio2 } from "../components/Portfolio";
-import { Portfolio3 } from "../components/Portfolio";
 import Layout from "../components/Layout";
 import LandingHome from "../components/LandingHome";
 import { upButton } from "../utils/buttonUp";
 import Footer from "../components/Footer";
+import { Carousel1 } from "../components/Carousel";
 
 function Home() {
   return (
     <Layout>
       <main className="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
-        <div className="snap-center">
+        <div className="snap-center" id="landing">
           <LandingHome />
         </div>
 
@@ -20,23 +18,14 @@ function Home() {
         </div>
 
         <div className="snap-center">
-          <Portfolio />
+          <Carousel1 />
         </div>
 
-        <div className="snap-center">
-          <Portfolio2 />
-        </div>
-
-        <div className="snap-center">
-          <Portfolio3 />
-        </div>
-
-        <div className="snap-center">
+        <div className="snap-center" id="talk">
           <Footer txt="Hola" />
         </div>
-
-        {upButton}
       </main>
+      {upButton}
     </Layout>
   );
 }

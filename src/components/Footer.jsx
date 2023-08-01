@@ -19,7 +19,7 @@ function Footer({ txt }) {
         id="letstalk"
       >
         <p className="text-2xl font-bold">Lets talk</p>
-        <div className=" bg-white w-full md:w-2/3 mx-auto my-4 p-4 rounded dark:bg-stone-600">
+        <div className="  w-full md:w-2/3 mx-auto my-4 p-4 rounded dark:bg-stone-600">
           <div className="flex ">
             {socialLinks.map((link, index) => (
               <a

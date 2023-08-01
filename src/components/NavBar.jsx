@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { sunIcon, moonIcon } from "../utils/icons";
+import Button from "./Button";
 
 export function Navbar() {
   const [t, i18n] = useTranslation("global");
@@ -59,6 +60,8 @@ export function Navbar() {
         >
           {darkMode ? sunIcon : moonIcon}
         </button>
+
+        <Button text="Let's Talk" onClick={() => scrollToSection("talk")} />
       </div>
     </div>
   );
