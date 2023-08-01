@@ -15,7 +15,7 @@ function Footer({ txt }) {
   return (
     <>
       <div
-        className=" text-center align-middle flex flex-col justify-center items-center h-screen"
+        className="text-center align-middle flex flex-col justify-center items-center  h-screen w-screen  overflow-hidden"
         id="letstalk"
       >
         <p className="text-2xl font-bold">Lets talk</p>
@@ -42,9 +42,6 @@ function Footer({ txt }) {
           </div>
         </div>
       </div>
-      <p className="text text-xs font-bold text-center align-middle">
-        Designed & Built by Juan Daniel Gonzalez
-      </p>
     </>
   );
 }

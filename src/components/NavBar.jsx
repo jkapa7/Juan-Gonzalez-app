@@ -1,7 +1,5 @@
-import Button from "./Button";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import smoothScroll from "../utils/smoothScroll";
 import { sunIcon, moonIcon } from "../utils/icons";
 
 export function Navbar() {
@@ -13,11 +11,6 @@ export function Navbar() {
     setDarkMode(!darkMode);
   };
 
-  const handleScrollToSection = (e, sectionId) => {
-    e.preventDefault();
-    smoothScroll(sectionId);
-  };
-
   const currentLanguage = i18n.language === "en" ? "EN" : "ES";
 
   const toggleLanguage = () => {
@@ -25,22 +18,30 @@ export function Navbar() {
     i18n.changeLanguage(newLanguage);
   };
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <div className="flex justify-between items-center px-4 py-2" id="s">
-      <div>
-        <h2 className="text-xl font-bold ">Juan Daniel Gonzalez</h2>
+    <div className="flex fixed top-0 px-4 py-2 w-full z-40" id="s">
+      <div className="flex flex-grow">
+        <h2 className="text-xl font-bold">Juan Daniel Gonzalez</h2>
       </div>
-      <div className="flex items-center space-x-4">
+
+      <div className="flex items-center space-x-4 justify-end text-sm font-medium">
         <a
           className="hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded cursor-pointer"
-          onClick={(e) => handleScrollToSection(e, "#about")}
+          onClick={() => scrollToSection("about")}
         >
           {t("navBar.about")}
         </a>
 
         <a
           className="hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded cursor-pointer"
-          onClick={(e) => handleScrollToSection(e, "#portfolio")}
+          onClick={() => scrollToSection("portfolio")}
         >
           {t("navBar.portfolio")}
         </a>
@@ -58,11 +59,6 @@ export function Navbar() {
         >
           {darkMode ? sunIcon : moonIcon}
         </button>
-
-        <Button
-          text="Let's talk"
-          onClick={(e) => handleScrollToSection(e, "#letstalk")}
-        />
       </div>
     </div>
   );
