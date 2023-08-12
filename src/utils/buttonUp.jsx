@@ -2,7 +2,7 @@ import { buttonUpIcon } from "./icons";
 
 export const upButton = (
   <a
-    className="fixed bottom-4 right-4 z-50 bg-gray-500 text-white px-2 py-2 rounded cursor-pointer hover:bg-slate-300"
+    className="fixed bottom-4 right-4 z-50 bg-yellow-400 text-black px-2 py-2 rounded cursor-pointer hover:bg-slate-300"
     onClick={() => scrollToSection("landing")}
   >
     {buttonUpIcon}

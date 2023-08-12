@@ -13,36 +13,34 @@ function Footer({ txt }) {
   let denyButtonText = t("downloadCv.denyButtonText");
 
   return (
-    <>
-      <div
-        className="text-center align-middle flex flex-col justify-center items-center  h-screen w-screen  overflow-hidden"
-        id="letstalk"
-      >
-        <p className="text-2xl font-bold">Lets talk</p>
-        <div className="  w-full md:w-2/3 mx-auto my-4 p-4 rounded dark:bg-stone-600">
-          <div className="flex ">
-            {socialLinks.map((link, index) => (
-              <a
-                key={index}
-                href={link.url}
-                target="_blank"
-                rel="noreferrer"
-                className="hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
-              >
-                <img src={link.icon} alt={link.alt} />
-              </a>
-            ))}
+    <div
+      className="text-center align-middle flex flex-col justify-center items-center  h-screen w-screen  overflow-hidden relative"
+      id="letstalk"
+    >
+      <p className="text-2xl font-bold">Lets talk</p>
+      <div className="  w-full md:w-2/3 mx-auto my-4 p-4 rounded dark:bg-stone-600">
+        <div className="flex ">
+          {socialLinks.map((link, index) => (
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:bg-slate-300 mx-auto my-auto px-2 py-1 rounded"
+            >
+              <img src={link.icon} alt={link.alt} />
+            </a>
+          ))}
 
-            <Button
-              text={txt}
-              onClick={() =>
-                downloadCv(titleCv, text, confirmButtonText, denyButtonText)
-              }
-            />
-          </div>
+          <Button
+            text={txt}
+            onClick={() =>
+              downloadCv(titleCv, text, confirmButtonText, denyButtonText)
+            }
+          />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

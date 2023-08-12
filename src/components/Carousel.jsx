@@ -8,15 +8,12 @@ import "swiper/css/pagination";
 
 export const Carousel = () => {
   return (
-    <div
-      className="flex flex-col items-center justify-center h-screen w-screen overflow-hidden"
-      id="portfolio"
-    >
+    <div className="flex flex-col items-center justify-center h-screen w-screen overflow-hidden relative">
       <div className="text-center text-2xl font-bold">
         <h1>Projects</h1>
       </div>
 
-      <div className="w-2/3 flex items-center justify-center">
+      <div className="w-3/4 flex items-center justify-center">
         <Swiper
           spaceBetween={50}
           slidesPerView={1}

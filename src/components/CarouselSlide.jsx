@@ -8,8 +8,8 @@ export const CarouselSlide = ({
   website,
 }) => {
   return (
-    <div className="mb-10 mt-4 mx-12 p-4 bg-white dark:bg-stone-600 rounded-lg shadow-md hover:shadow-lg transition-shadow flex">
-      <div className="w-1/2 flex flex-col">
+    <div className="mb-10 mt-4 mx-12 p-4 flex">
+      <div className="w-1/2 flex flex-col rounded-l-lg  bg-white dark:bg-stone-600 p-2">
         <h2 className="text-xl font-bold">{title}</h2>
         <p className="text-gray-600 dark:text-gray-300 text-xs">
           {description}
@@ -34,11 +34,10 @@ export const CarouselSlide = ({
           </a>
         </div>
       </div>
-
       <div className="w-1/2 flex justify-center align-middle">
         <img
           src={image}
-          className="object-cover rounded-lg shadow h-96 w-96"
+          className="object-cover shadow h-full w-full rounded-r-lg"
           alt={title}
         />
       </div>

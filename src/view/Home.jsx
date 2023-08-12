@@ -17,15 +17,15 @@ function Home() {
           <About />
         </div>
 
-        <div className="snap-center">
+        <div className="snap-center" id="portfolio">
           <Carousel />
         </div>
 
         <div className="snap-center" id="talk">
           <Footer txt="Hola" />
         </div>
+        {upButton}
       </main>
-      {upButton}
     </Layout>
   );
 }

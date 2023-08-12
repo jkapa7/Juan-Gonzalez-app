@@ -4,12 +4,12 @@ function LandingHome() {
   const [t] = useTranslation("global");
 
   return (
-    <div className="flex justify-center items-center h-screen ">
+    <main className="flex justify-center items-center h-screen w-creen overflow-hidden relative">
       <div className="text-center">
         <h1 className="text-6xl font-bold">{t("main.title1")}</h1>
         <h1 className="text-6xl font-bold">{t("main.title2")}</h1>
       </div>
-    </div>
+    </main>
   );
 }
 

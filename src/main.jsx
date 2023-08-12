@@ -35,7 +35,7 @@ i18next.use(LanguageDetector).init({
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-      <section className="bg-gray-200 dark:bg-gray-800 transition-colors  min-h-screen grid place-content-center text-gray-900 dark:text-gray-200">
+      <section className="bg-gray-200 dark:bg-gray-800 transition-colors  text-gray-900 dark:text-gray-200">
         <RouterProvider router={Router} />
       </section>
     </I18nextProvider>
