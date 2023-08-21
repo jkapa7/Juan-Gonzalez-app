@@ -8,7 +8,7 @@ import { Carousel } from "../components/Carousel";
 function Home() {
   return (
     <Layout>
-      <main className="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
+      <main className="snap-y snap-mandatory relative w- h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
         <div className="snap-center" id="landing">
           <LandingHome />
         </div>
